@@ -14,16 +14,18 @@
         <img src="ESC Logo.png" alt="ESC Logo">
     </div>
     <form id="form">
-        <input type="text" placeholder="Enter Text" id="Password">
+        <textarea rows="7" cols="100" placeholder="Enter Text" id="Password"></textarea>
+        <button id="thebutton" type="submit">Submit</button>
     </form>
-    <button id="thebutton" type="button">Submit</button>
-    <button id="thebutton2" type="button">Refresh</button>
-
     <div id="div"><p id="p">Text that is being SENT will be translated here</p></div>
     <div id="div2"><p id="p2">Text that is being RECIEVED will be translated here</p></div>
-    <p id="rules">This translator is limited to some capacity since it is the first version. It currently can only accept symbols such as '!', '.', and '?'. It also cannot accept numbers such '10' but it can accept it in string form - such as 'ten'.
-        <br><br> Also due to the site being big dumb you will have to press the refresh button after every translation otherwise it will not work - this issue shall be fixed.
-    </p>
+    <p id="rules">This translator is capable of producing an encypted message with any standard keyboard symbols:</p>
+    <ul>
+        <li>a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z</li>
+        <li>A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z</li>
+        <li>1,2,3,4,5,6,7,8,9,0</li>
+        <li>!,@,#,$,%,^,&,*,(,),~,`,,,.,<,>,/,?,;,:,',",-,_,=,+,[,],{,},|</li>
+    </ul>
     <script src="script.js"></script>
 </body> 
 

@@ -3,72 +3,88 @@
     margin: 0;
     border: 0;
 }
+
 img {
-    width: 35vw;
+    height: 100%;
 }
+
 body {
     background-color: rgb(32, 32, 32);
 }
+
 .header {
     clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 40% 90%, 30% 100%, 0% 100%);
     background-color: white;
+    height: 10%;
     width: 100%;
     position: absolute;
     border-bottom: 1.6vh solid #FF7700;
 }
-input {
+
+textarea {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border-radius: 10px;
-    font-size: 3vh;
+    font-size: 20px;
+    width: 80%;
     border: #FF7700 3px solid;
 }
+
 button {
     position: absolute;
-    top: 27%;
+    top: 38.5%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-size: 3vh;
     border-radius: 10px;
     border: #FF7700 3px solid;
-}
-#thebutton2 {
-    top: 90%;
+    z-index: 200;
 }
 
 #div {
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: white;
-    width: 80vw;
-    height: 30vw;
-    text-align: center;
-    word-wrap: break-word;
-    border: #FF7700 solid 3px;
-}
-#div2 {
-    position: absolute;
     top: 55%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: white;
     width: 80vw;
-    height: 30vw;
+    height: 200px;
     text-align: center;
     word-wrap: break-word;
     border: #FF7700 solid 3px;
 }
+
+#div2 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 80vw;
+    height: 200px;
+    text-align: center;
+    word-wrap: break-word;
+    border: #FF7700 solid 3px;
+}
+
 #p {
     margin-left: 5px;
     margin-right: 5px;
 }
+
 #rules {
     position: absolute;
-    top: 65%;
+    top: 95%;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+ul {
+    position: absolute;
+    top: 110%;
     margin-left: 5px;
     margin-right: 5px;
     color: white;
