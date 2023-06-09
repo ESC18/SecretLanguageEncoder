@@ -1,6 +1,7 @@
 window.onload = function () {
     let form = document.getElementById("form");
     form.addEventListener("submit", submitFunction);
+
 }
 let submitFunction = function (event) {
     event.preventDefault();
@@ -16,6 +17,10 @@ let submitFunction = function (event) {
         div.innerText = savedText;
         savedTextTwo = savedTextTwo.replaceAll(test2[index], test[index]);
         div2.innerHTML = savedTextTwo;
-        form.reset();
     }
+    navigator.clipboard.writeText(savedText);
+ 
+
+
 }
+
