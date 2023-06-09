@@ -34,6 +34,9 @@ button {
     border-radius: 10px;
     border: #FF7700 3px solid;
 }
+#thebutton2 {
+    top: 90%;
+}
 
 #div {
     position: absolute;
